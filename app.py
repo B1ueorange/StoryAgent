@@ -399,7 +399,7 @@ def music_gen():
 
 with gr.Blocks() as demo:
     gr.Markdown("""<center><font size=8>StoryAgent</center>""")
-    # gr.Markdown("# <center> <font size=4>\N{fire} [Github star it here](https://github.com/modelscope/motionagent/tree/main)</center>")
+    gr.Markdown("# <center> <font size=4>\N{fire} [Github star it here](https://github.com/B1ueorange/StoryAgent/tree/main)</center>")
     with gr.Tabs():
         with gr.TabItem('剧本生成(Script Generation)'):
             script_gen()
